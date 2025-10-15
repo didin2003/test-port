@@ -1,0 +1,75 @@
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>403-Document Not Found</title>
+   <link href="{% static 'assets/img/logo.webp' %}" rel="icon">
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000; /* Black background */
+      color: #ff4c4c; /* Red text */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 0 0 20px red;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ddd;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 12px 25px;
+      background: linear-gradient(90deg, #ff4c4c, #ff0000);
+      color: white;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 0 10px red;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: linear-gradient(90deg, #ff0000, #ff4c4c);
+      box-shadow: 0 0 20px red;
+      transform: scale(1.1);
+    }
+
+    .error-code {
+      font-size: 5rem;
+      color: #ff0000;
+      margin-bottom: 20px;
+      text-shadow: 0 0 25px red;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <div class="error-code">403</div>
+    <h1>Access Denied</h1>
+    <p>Sorry, you don’t have permission to access this page.</p>
+    <a href="{% url 'home' %}">Go to Home</a>
+  </div>
+</body>
+</html>
+{% endblock %}
