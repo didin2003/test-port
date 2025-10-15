@@ -5,7 +5,7 @@ from django.shortcuts import render
 class IPRestrictionMiddleware:
     def __init__(self, get_response):
         self.get_response = get_response
-        self.allowed_ips = ["10.10.10.74"]
+        self.allowed_ips = ["49.204.235.248"]
         self.restricted_paths = ["/metrics"]
 
     def __call__(self, request):
