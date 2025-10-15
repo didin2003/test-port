@@ -1,0 +1,162 @@
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Didin's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="{% static 'assets/img/logo.webp' %}" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@...&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="{% static 'assets/img/profile-pic.jpeg' %}" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="{% url 'home' %}" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Didin PG</h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="mailto:didingangadharpg@gmail.com" class="gmail">
+      <i class="bi bi-envelope-fill"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/didinpg7/" target="_blank" rel="noopener noreferrer" class="linkedin">
+      <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/didin8080" class="github">
+      <i class="bi bi-github"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="/"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="/"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="/"><i class="bi-file-earmark-code navicon"></i> Skills</a></li>
+        <li><a href="/"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="/"><i class="bi bi-images navicon"></i> Project</a></li>
+        <li><a href="/"><i class="bi bi-receipt navicon"></i>   Certificates</a></li>
+        <li><a href="/"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Project Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="{% static 'assets/img/project/online-shop.png' %}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 mt-5 portfolio-description">
+            <div  data-aos="fade-up" data-aos-delay="200">
+              <h2>Project information</h2>
+              <ul>
+                <li><strong>Name</strong>: Online-shop</li>
+                <li><strong>Category</strong>: Web application</li>
+                <li><strong>Tools</strong>: Github, Jenkins, SonarQube, Trivy, Docker, Prometheus, Grafana, Kubernetes (ArgoCD)</li>
+                <li><strong>CloudPlatform</strong>: AWS</li>
+              </ul>
+            </div>
+          </div>
+            <div class="col-lg-12 portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Description</h2>
+              <p class="text-dark">I’ve just deployed OnlineShop, an E-commerce platform, on AWS using an Elastic Load Balancer (ELB) with automated backups to S3. This project has been an exciting journey that combined cloud deployment, e-commerce functionality, and DevOps automation into a production-ready solution. The stack includes Python, Django, db.sqlite3, Docker, Jenkins, AWS EC2, and AWS S3, while the architecture follows a multi-tier deployment model with automated backup integration.
+                The application is hosted across multiple EC2 instances for both frontend and backend, distributed between the us-east-2 and us-east-1 regions, and traffic is efficiently managed through AWS Elastic Load Balancer. To ensure data security and reliability, the database and complete codebase are automatically backed up to Amazon S3. A retention policy maintains only the most recent seven days of backups, while older ones are deleted automatically using a combination of Cron jobs and S3 lifecycle rules, ensuring both reliability and cost efficiency.
+                The platform itself offers essential e-commerce features such as product listing, a shopping cart, and a seamless checkout process. Continuous Integration and Continuous Deployment are handled through Jenkins, enabling smooth zero-downtime deployments, while Docker ensures that all services remain portable across environments. The addition of an automated backup system eliminates the risk of data loss and removes the need for manual intervention, making the deployment not only scalable but also highly reliable.
+                This project was more than just building an online shop — it was about making it truly production-ready by applying real-world DevOps practices such as automation, cloud scalability, and robust data protection.
+              </p>
+            </div>
+            <div class="col-lg-12 portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2> Technical Document</h2>
+                <a href="https://github.com/didin8080/Online-shop.git" style="font-size: 40px;color: black;"> <i class="bi bi-github" style="font-size: 40px; color: black;"></i>Github</a>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Didin's Portfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top & Preloader -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/typed.js/typed.umd.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+</html>
+{% endblock %}

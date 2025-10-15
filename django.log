@@ -1,0 +1,482 @@
+[2025-09-09 04:31:17,414] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 04:31:27,293] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 04:32:22,575] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 04:32:22,848] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 04:48:20,012] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 04:48:20,057] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 04:48:26,813] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 04:48:51,154] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js.map HTTP/1.1" 200 35986
+[2025-09-09 04:48:51,155] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js.map HTTP/1.1" 200 24750
+[2025-09-09 04:48:51,173] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js.map HTTP/1.1" 200 204569
+[2025-09-09 04:48:51,177] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 332090
+[2025-09-09 04:51:29,526] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 04:51:30,023] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 04:51:35,952] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 04:51:36,795] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 304 0
+[2025-09-09 04:51:36,798] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js.map HTTP/1.1" 304 0
+[2025-09-09 04:51:36,798] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js.map HTTP/1.1" 304 0
+[2025-09-09 04:51:36,800] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js.map HTTP/1.1" 304 0
+[2025-09-09 04:56:40,413] INFO django.server "GET /online_shop/ HTTP/1.1" 200 8258
+[2025-09-09 04:56:40,692] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 04:56:43,760] WARNING django.request Not Found: /favicon.ico
+[2025-09-09 04:56:44,980] INFO django.server "GET /gym/ HTTP/1.1" 200 7097
+[2025-09-09 04:56:47,323] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 04:59:44,828] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 05:00:44,053] INFO django.server "GET /lapzone/ HTTP/1.1" 200 7311
+[2025-09-09 05:00:44,206] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 05:00:45,033] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 05:00:58,171] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 05:00:58,973] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 05:01:07,679] INFO django.server "GET /classmanager/ HTTP/1.1" 200 7270
+[2025-09-09 05:01:08,407] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 05:01:16,821] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 05:01:17,489] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 05:40:29,280] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 05:40:30,009] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 05:40:44,530] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 05:40:44,966] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 05:40:49,989] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 05:40:50,131] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,135] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,138] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,139] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,139] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,141] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,165] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 05:40:50,167] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,180] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,181] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,184] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 304 0
+[2025-09-09 05:40:50,236] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 05:40:50,240] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 05:40:50,382] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 05:40:58,304] INFO django.server "POST / HTTP/1.1" 200 22400
+[2025-09-09 05:40:58,347] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 05:41:51,265] INFO django.server "POST / HTTP/1.1" 200 22400
+[2025-09-09 05:41:51,347] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 05:45:25,946] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 05:45:26,391] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 05:46:06,390] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 05:46:06,825] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 05:46:39,218] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 05:46:39,326] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 05:46:39,327] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 05:46:39,328] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 05:46:39,352] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 05:46:39,352] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 05:46:39,420] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 05:46:39,423] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 05:46:39,426] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 05:46:39,451] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 05:46:39,558] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 05:46:39,748] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 05:50:07,114] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/myportfolio/settings.py changed, reloading.
+[2025-09-09 05:50:07,550] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 05:50:11,409] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 05:51:03,945] INFO django.server "POST / HTTP/1.1" 200 22400
+[2025-09-09 05:52:41,255] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 05:52:41,398] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 06:05:23,633] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/forms.py changed, reloading.
+[2025-09-09 06:05:24,184] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:09:28,656] INFO django.server "GET /lapzone/ HTTP/1.1" 200 7311
+[2025-09-09 06:09:34,449] WARNING django.request Not Found: /favicon.ico
+[2025-09-09 06:10:24,131] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:10:24,568] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:11:57,573] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:11:58,021] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:12:07,501] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:12:07,956] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:12:54,641] INFO django.server "POST / HTTP/1.1" 200 22433
+[2025-09-09 06:12:54,703] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:12:54,704] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:12:54,708] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:12:54,711] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:12:54,713] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:12:54,722] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:12:54,723] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:12:54,746] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:12:54,758] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:12:54,760] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:12:54,761] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:12:54,834] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:12:54,834] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:12:54,855] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:12:54,875] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:12:54,875] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:12:54,878] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:12:54,879] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:12:54,884] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:12:54,886] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:12:55,069] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:12:55,085] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:12:55,086] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:12:55,099] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:12:55,119] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:12:55,126] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:12:55,144] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:13:26,886] ERROR django.request Internal Server Error: /contact_view/
+Traceback (most recent call last):
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devops/django_iportfolio_dynamic/pages/views.py", line 78, in contact_view
+    settings.DEFAULT_FROM_EMAIL,
+NameError: name 'settings' is not defined
+[2025-09-09 06:13:26,887] ERROR django.server "POST /contact_view/ HTTP/1.1" 500 73257
+[2025-09-09 06:15:05,742] ERROR django.request Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devops/django_iportfolio_dynamic/pages/views.py", line 19, in home
+    return render(request, "index.html", context)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'contact_view/' not found. 'contact_view/' is not a valid view function or pattern name.
+[2025-09-09 06:15:05,743] ERROR django.server "POST / HTTP/1.1" 500 134095
+[2025-09-09 06:15:05,782] WARNING django.request Not Found: /favicon.ico
+[2025-09-09 06:15:05,783] WARNING django.server "GET /favicon.ico HTTP/1.1" 404 4558
+[2025-09-09 06:16:00,148] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:16:00,602] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:16:02,896] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:16:03,317] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:16:06,657] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:16:07,079] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:16:33,876] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:16:34,335] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:16:38,679] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:16:39,125] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:16:54,681] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:16:55,134] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:17:06,188] ERROR django.request Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devops/django_iportfolio_dynamic/pages/views.py", line 36, in home
+    settings.DEFAULT_FROM_EMAIL,
+NameError: name 'settings' is not defined
+[2025-09-09 06:17:06,189] ERROR django.server "POST / HTTP/1.1" 500 74395
+[2025-09-09 06:17:06,230] WARNING django.request Not Found: /favicon.ico
+[2025-09-09 06:17:06,230] WARNING django.server "GET /favicon.ico HTTP/1.1" 404 4558
+[2025-09-09 06:17:10,640] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:17:10,763] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:17:10,764] INFO django.server - Broken pipe from ('127.0.0.1', 40202)
+[2025-09-09 06:17:10,899] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:17:12,987] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:17:15,602] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:17:28,045] INFO django.server "POST / HTTP/1.1" 302 0
+[2025-09-09 06:17:28,055] INFO django.server "GET / HTTP/1.1" 200 22689
+[2025-09-09 06:17:49,559] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:18:17,164] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:18:17,636] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:18:32,364] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:18:32,437] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:18:32,444] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:18:32,439] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:18:32,450] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:18:32,451] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:18:32,449] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:18:32,463] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:18:32,464] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:18:32,465] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:18:32,466] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:18:32,469] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:18:32,476] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:18:32,487] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:18:32,490] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:18:32,489] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:18:32,505] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:18:32,509] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:18:32,515] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:18:32,519] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:18:32,531] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:18:32,537] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:18:32,552] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:18:32,561] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:18:32,578] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:18:32,592] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:18:32,595] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:18:32,647] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:18:45,239] INFO django.server "POST / HTTP/1.1" 200 22409
+[2025-09-09 06:19:08,945] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:19:09,404] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:19:14,800] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:19:15,256] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:19:17,594] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:19:17,996] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:19:23,479] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:19:23,950] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:19:29,365] INFO django.server "POST / HTTP/1.1" 200 22409
+[2025-09-09 06:19:29,434] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:19:29,435] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:19:29,435] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:19:29,436] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:19:29,443] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:19:29,437] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:19:29,444] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:19:29,449] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:19:29,446] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:19:29,448] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:19:29,457] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:19:29,461] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:19:29,470] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:19:29,473] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:19:29,488] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:19:29,489] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:19:29,490] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:19:29,518] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:19:29,521] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:19:29,530] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:19:29,550] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:19:29,552] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:19:29,561] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:19:29,579] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:19:29,591] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:19:29,609] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:19:29,742] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:19:44,701] INFO django.server "POST / HTTP/1.1" 200 22409
+[2025-09-09 06:19:44,749] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:19:44,751] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:19:44,754] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:19:44,755] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:19:44,760] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:19:44,764] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:19:44,763] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:19:44,761] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:19:44,765] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:19:44,765] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:19:44,768] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:19:44,796] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:19:44,809] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:19:44,814] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:19:44,815] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:19:44,817] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:19:44,818] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:19:44,818] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:19:44,822] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:19:44,839] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:19:44,863] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:19:44,891] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:19:44,892] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:19:44,900] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:19:44,904] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:19:44,905] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:19:44,968] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:20:00,750] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:20:00,966] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 06:20:17,892] ERROR django.request Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/devops/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/devops/django_iportfolio_dynamic/pages/views.py", line 37, in home
+    settings.DEFAULT_FROM_EMAIL,
+NameError: name 'settings' is not defined
+[2025-09-09 06:20:17,893] ERROR django.server "POST / HTTP/1.1" 500 74123
+[2025-09-09 06:20:18,135] WARNING django.request Not Found: /favicon.ico
+[2025-09-09 06:22:24,136] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:22:24,591] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:22:40,237] INFO django.server "POST / HTTP/1.1" 200 22409
+[2025-09-09 06:22:40,329] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:22:40,335] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:22:40,336] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:22:40,337] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:22:40,343] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:22:40,345] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:22:40,354] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:22:40,355] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:22:40,363] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:22:40,365] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:22:40,366] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:22:40,367] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:22:40,382] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:22:40,383] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:22:40,396] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:22:40,406] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:22:40,409] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:22:40,410] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:22:40,414] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:22:40,423] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:22:40,440] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:22:40,444] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:22:40,448] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:22:40,461] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:22:40,467] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:22:40,651] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:22:40,907] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:23:08,586] INFO django.server "POST / HTTP/1.1" 302 0
+[2025-09-09 06:23:08,611] INFO django.server "GET / HTTP/1.1" 200 22689
+[2025-09-09 06:23:38,343] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:23:38,819] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:23:50,944] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:23:51,005] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:23:51,006] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:23:51,010] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:23:51,013] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:23:51,014] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:23:51,015] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:23:51,018] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:23:51,019] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:23:51,019] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:23:51,021] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:23:51,021] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:23:51,023] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:23:51,027] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:23:51,033] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:23:51,051] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:23:51,064] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:23:51,065] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:23:51,067] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:23:51,071] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:23:51,076] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:23:51,096] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:23:51,119] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:23:51,125] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:23:51,134] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:23:51,138] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:23:51,154] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:23:51,216] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:26:11,793] INFO django.server "GET /contact/ HTTP/1.1" 302 0
+[2025-09-09 06:26:11,813] INFO django.server "GET / HTTP/1.1" 200 22409
+[2025-09-09 06:26:12,008] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:26:25,937] INFO django.server "GET /online_shop/ HTTP/1.1" 200 8258
+[2025-09-09 06:26:36,521] WARNING django.request Not Found: /favicon.ico
+[2025-09-09 06:36:19,238] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 06:36:19,285] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:36:19,287] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:36:19,292] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:36:19,289] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:36:19,290] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:36:19,300] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:36:19,301] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:36:19,304] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:36:19,304] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:36:19,308] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:36:19,309] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:36:19,313] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:36:19,332] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:36:19,344] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:36:19,348] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:36:19,351] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:36:19,353] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:36:19,396] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:36:19,397] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:36:19,398] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:36:19,403] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:36:19,408] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:36:19,421] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:36:19,421] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:36:19,445] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:36:19,460] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:36:19,521] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:36:29,842] INFO django.server "POST / HTTP/1.1" 200 22400
+[2025-09-09 06:36:46,225] INFO django.server "POST / HTTP/1.1" 200 22400
+[2025-09-09 06:36:46,264] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:36:46,265] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:36:46,270] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:36:46,271] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:36:46,272] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:36:46,274] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:36:46,274] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:36:46,274] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:36:46,275] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:36:46,289] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:36:46,291] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:36:46,291] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:36:46,314] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:36:46,315] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:36:46,321] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:36:46,322] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:36:46,331] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:36:46,367] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:36:46,381] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:36:46,391] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:36:46,383] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:36:46,398] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:36:46,414] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:36:46,418] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:36:46,420] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:36:46,435] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:36:46,503] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:37:06,926] INFO django.server "POST / HTTP/1.1" 200 22529
+[2025-09-09 06:39:39,482] INFO django.server "POST / HTTP/1.1" 200 22529
+[2025-09-09 06:39:49,908] INFO django.server "POST / HTTP/1.1" 200 22529
+[2025-09-09 06:39:49,992] INFO django.server "GET /static/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 98255
+[2025-09-09 06:39:49,996] INFO django.server "GET /static/assets/vendor/aos/aos.css HTTP/1.1" 200 28765
+[2025-09-09 06:39:50,000] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 232803
+[2025-09-09 06:39:50,000] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:39:50,001] INFO django.server "GET /static/assets/css/main.css HTTP/1.1" 200 28215
+[2025-09-09 06:39:50,001] INFO django.server "GET /static/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+[2025-09-09 06:39:50,005] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:39:50,006] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 18432
+[2025-09-09 06:39:50,008] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:39:50,008] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:39:50,009] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:39:50,010] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:39:50,013] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:39:50,016] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:39:50,042] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:39:50,047] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:39:50,049] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:39:50,052] INFO django.server "GET /static/assets/img/abstract-black.avif HTTP/1.1" 200 1759
+[2025-09-09 06:39:50,052] INFO django.server "GET /static/assets/img/profile-pic.jpeg HTTP/1.1" 200 41346
+[2025-09-09 06:39:50,061] INFO django.server "GET /static/assets/img/project/online-shop.png HTTP/1.1" 200 402403
+[2025-09-09 06:39:50,087] INFO django.server "GET /static/assets/img/project/health-stack.png HTTP/1.1" 200 772238
+[2025-09-09 06:39:50,094] INFO django.server "GET /static/assets/img/project/class-manager.png HTTP/1.1" 200 791529
+[2025-09-09 06:39:50,100] INFO django.server "GET /static/assets/img/project/gym-app.png HTTP/1.1" 200 712691
+[2025-09-09 06:39:50,110] INFO django.server "GET /static/assets/img/project/Lapzone.png HTTP/1.1" 200 1057268
+[2025-09-09 06:39:50,117] INFO django.server "GET /static/assets/img/project/train-food.png HTTP/1.1" 200 2004429
+[2025-09-09 06:39:50,173] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:39:50,242] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:39:59,428] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:39:59,588] INFO django.server "GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+[2025-09-09 06:40:55,622] INFO django.server "GET /health_stack/ HTTP/1.1" 200 7205
+[2025-09-09 06:40:55,711] INFO django.server "GET /static/assets/vendor/php-email-form/validate.js HTTP/1.1" 200 0
+[2025-09-09 06:40:55,713] INFO django.server "GET /static/assets/vendor/typed.js/typed.umd.js HTTP/1.1" 200 9843
+[2025-09-09 06:40:55,717] INFO django.server "GET /static/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 151102
+[2025-09-09 06:40:55,718] INFO django.server "GET /static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80721
+[2025-09-09 06:40:55,713] INFO django.server "GET /static/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1" 200 21112
+[2025-09-09 06:40:55,713] INFO django.server "GET /static/assets/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5417
+[2025-09-09 06:40:55,716] INFO django.server "GET /static/assets/vendor/aos/aos.js HTTP/1.1" 200 13800
+[2025-09-09 06:40:55,715] INFO django.server "GET /static/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 56300
+[2025-09-09 06:40:55,720] INFO django.server "GET /static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js HTTP/1.1" 200 5485
+[2025-09-09 06:40:55,722] INFO django.server "GET /static/assets/js/main.js HTTP/1.1" 200 6249
+[2025-09-09 06:40:55,721] INFO django.server "GET /static/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+[2025-09-09 06:40:55,774] INFO django.server "GET /static/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6 HTTP/1.1" 200 130396
+[2025-09-09 06:40:55,816] INFO django.server "GET /static/assets/img/logo.webp HTTP/1.1" 200 14294
+[2025-09-09 06:53:40,395] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:53:40,887] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:53:46,268] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/myportfolio/settings.py changed, reloading.
+[2025-09-09 06:53:46,842] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:53:49,174] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/admin.py changed, reloading.
+[2025-09-09 06:53:49,593] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:53:53,996] INFO django.utils.autoreload /home/devops/django_iportfolio_dynamic/pages/views.py changed, reloading.
+[2025-09-09 06:53:54,441] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 06:54:03,167] INFO django.server "GET / HTTP/1.1" 200 22400
+[2025-09-09 07:09:53,925] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-09-09 07:10:34,979] INFO django.utils.autoreload Watching for file changes with StatReloader

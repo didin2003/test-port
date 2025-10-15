@@ -1,0 +1,533 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Didin's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="{% static 'assets/img/logo.webp' %}" rel="icon">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="{% static 'assets/img/profile-pic.jpeg' %}" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="{% url 'home' %}" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="{% static 'assets/img/logo.png' %}" alt=""> -->
+      <h1 class="sitename">Didin PG</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="mailto:didingangadharpg@gmail.com" class="gmail">
+      <i class="bi bi-envelope-fill"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/didinpg7/" target="_blank" rel="noopener noreferrer" class="linkedin">
+      <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/didin8080" class="github">
+      <i class="bi bi-github"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#home" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#Skills"><i class="bi-file-earmark-code navicon"></i> Skills</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#project"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="#Certificates"><i class="bi bi-receipt navicon"></i>   Certificates</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section dark-background">
+
+      <img src="{% static 'assets/img/abstract-black.avif' %}" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>DIDIN PG</h2>
+        <p>I'm a Associate AWS-DevOps Engineer</p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Motivated and eager-to-learn fresher with the understanding of AWS cloud services and DevOps practices. Passionate about automation, continuous integration, and infrastructure management, aiming to leverage technical expertise to streamline processes and enhance system efficiency. Seeking an opportunity in a dynamic organization to apply skills in cloud computing, problem-solving, and continuous improvement while fostering meaningful career growth and contributing to organizational success.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="{% static 'assets/img/profile-pic.jpeg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Associate AWS-DevOps Engineer</h2>
+            <p class="fst-italic py-3">
+              Enthusiastic Entry-Level AWS DevOps Engineer skilled in automating CI/CD pipelines and configuring cloud infrastructure using AWS services. Driven to optimize deployments, reduce manual effort, and support scalable, reliable environments.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Didin PG</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 Nov 2003</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.didin.in</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 7034180705</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right" style="margin-bottom: 50px;"></i> <strong style="margin-bottom: 50px;">Address:</strong> <span>Harisree Nilayalam, Parachirikkad (ho), Kalapetty (po), Kuzhalmannam, Palakkad, Kerala (678702)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong> <span>BCA Graduate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>didingangadharpg@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I am looking for an opportunity to work as an AWS-Devops Engineer in a reputated organization where I can utlize my skills and knowledge to contribute to the success of the company while also gaining valuable experience and furturing my career growth.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="Skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row skills-content skills-animation">
+
+        <div class="col-lg-6">
+          <ul>
+            <li>Sound Knowledge in cloud computing concepts, with a focus on Amazon Web Services.</li>
+            <li>Sound understanding of AWS services such as EC2, S3, IAM, and VPC, Monitoring Tools</li>
+            <li>Knowledge about cloud deployment models, including Infrastructure as a Service (IaaS), Platform as a Service
+              (PaaS), and Software as a Service (SaaS).</li>
+            <li>Creating IAM Users, providing roles and policies to the user to access the cloud infrastructure</li>
+            <li>Launching and configuring EC2 instance using AMI's. Creating and attaching Elastic IP to EC2 instance, launching a
+                private instance and accessing database securely.</li>
+            <li>Auto-Scaling: Creating Auto scaling group as per requirement.</li>
+            <li>Setting up and installing Cloud watch. Configuring alarms for CPU utilization.</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <ul>
+            <li>Creating S3 bucket and uploading objects Creating lifecycle in S3, bucket versioning, Replication, creating server access
+                logging for buckets, and hosting a static website from the S3 bucket.</li>
+            <li>Creating S3 bucket and attach with the folder and Backup the database and entire code in the form of zip automatically using cron.</li>
+            <li>Implemented CI/CD pipeline using Jenkins, GitHub, Maven, SonarQube, Docker, Kubernetes (Argocd), Prometheus and Grafana and backup the data in S3 in the form of Zip file using crontab.</li>
+            <li><b>Programming Skills-</b> Basic Python, Linux,Basic HTML.</li>
+            <li><b>Soft Skills-</b> Good Communication, Quick Learner, Teamwork, Problem Solving.</li>
+            <li><b>Technical skills-</b> GitHub, Jenkins, Maven, SonarQube, Ansible, Docker, Kubernetes, Argocd, Prometheus, Grafana.</li>
+            <li><b>Cloud platform-</b> AWS.</li>
+            
+          </ul>
+        </div>
+
+      </div>
+     </div>
+
+  </section>
+</section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p> Highly motivated and detail-oriented DevOps Engineer Intern with hands-on experience in cloud computing, CI/CD pipelines, containerization, and infrastructure automation. Passionate about optimizing workflows, improving system efficiency, and contributing to innovative projects while continuing to learn and grow professionally.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <p><em>Motivated and eager-to-learn fresher with a foundational understanding of AWS cloud services and DevOps practices.
+                    Passionate about automation, continuous integration, and infrastructure management, aiming to leverage technical expertise to
+                    streamline processes and enhance system efficiency. Seeking an opportunity in a dynamic organization to apply skills in cloud
+                    computing, problem-solving, and continuous improvement while fostering meaningful career growth and contributing to
+                    organizational success.</em></p> 
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Computer Application</h4>
+              <h5>2021 - 2024</h5>
+              <p><em>VV College of Science &amp Technology Kanjikode, Palakkad, Kerala</em></p>
+              <p>CGPA: 6.417</p>
+            </div>
+            <div class="resume-item">
+              <h4> Higher Secondary</h4>
+              <h5>2019 - 2021</h5>
+              <p><em> BEMHSS Palakkad, Kerala</em></p>
+              <p> Mark Percentage: 75%</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Devops Engineer Intern</h4>
+              <h5>2025 - Present</h5>
+              <p><em>Fortigrid India Pvt Ltd</em></p>
+              <p>#2A - 2nd floor, SLV Noble RR Embassy, 144 & 145, Nava India Rd, Peelamedu, Tamil Nadu Pincode: 641004</p>
+              <ul>
+                <li>Assisted in the setup and maintenance of CI/CD pipelines using Jenkins.</li>
+                <li>Collaborated with the team to containerize applications using Docker</li>
+                <li>Deployed and monitored applications on cloud platforms such as AWS</li>
+                <li>Helped configure version control workflows, branch strategies, and pull request approvals for Git repositories.</li>
+                <li>Monitored application performance and created logs, alerts, and dashboards using tools like Prometheus, Grafana.</li>
+                <li>Learned and contributed to container orchestration using Kubernetes, including deployment and service management.</li>
+                <li>Learned and contributed to backup the data to S3 using crontab</li>
+                <li>Documented processes, scripts, and deployment guides for team reference.</li>
+              </ul>
+               <a href="{% static 'assets/pdf/DIDINPG RESUME.pdf' %}" class="btn btn-primary" download>
+                 Download Resume 
+               </a>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div> 
+
+      </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Project Section -->
+    <section id="project" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Projects deployed using GitHub, Jenkins, SonarQube, Trivy, Docker, Prometheus, Grafana, and ArgoCD; entire codebase and infrastructure designed, developed, and managed independently. </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+             <!-- Project 1-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/online-shop.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/online-shop.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'online_shop' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 2-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/health-stack.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/health-stack.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'health_stack' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 3-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/class-manager.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/class-manager.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'classmanager' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 4-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/Lapzone.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/Lapzone.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'lapzone' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 5-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/gym-app.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/gym-app.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'gym' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 6-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/train-food.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/train-food.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'train_food' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 7-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/hotel-alb.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/hotel-alb.png  ' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'Hotel_room' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+
+            <!-- Project 8-->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/project/job1.png' %}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <a href="{% static 'assets/img/project/job1.png' %}" title="App" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="{% url 'job_portal' %}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Project Item -->
+        </div>
+      </div>
+      </div><!-- End Project Container -->
+
+
+    </section><!-- /Project Section -->
+
+    <section id="Certificates" class="Certificates section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Certificates</h2>
+    <p>
+      I believe in continuous learning, and these certificates validate my knowledge 
+      across multiple domains including Cloud, DevOps, and Software Deployment. 
+      Each certification represents hands-on practice, real-world projects, and professional growth.
+    </p>
+
+    <div class="row gy-4 mt-4">
+      <!-- Linux Certificate -->
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <div class="card-body">
+            <i class="bi bi-terminal fs-1 text-primary"></i>
+            <h5 class="card-title mt-3">Linux Training</h5>
+            <p class="card-text text-muted">
+              Gained strong expertise in Linux system management, shell scripting, 
+              and troubleshooting to build a solid foundation for DevOps.
+            </p>
+            <a href="{% static 'assets/pdf/Didin PG LINUX.pdf' %}" class="btn btn-dark btn-sm mt-1">View Certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AWS Certificate -->
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <div class="card-body">
+            <i class="bi bi-cloud-check fs-1 text-warning"></i>
+            <h5 class="card-title mt-3">AWS Training</h5>
+            <p class="card-text text-muted">
+              Learned cloud concepts like EC2, S3, VPC, and IAM, enabling me to 
+              design scalable and secure cloud-native applications on AWS.
+            </p>
+            <a href="{% static 'assets/pdf/Didin PG AWS.pdf' %}" class="btn btn-dark btn-sm mt-2">View Certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps Certificate -->
+      <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <div class="card-body">
+            <i class="bi bi-diagram-3 fs-1 text-success"></i>
+            <h5 class="card-title mt-3">DevOps Training</h5>
+            <p class="card-text text-muted">
+              Learned CI/CD pipelines, Docker, Kubernetes, Jenkins,Ansible and monitoring tools 
+              to streamline application deployment and operations.
+            </p>
+            <a href="{% static 'assets/pdf/Didin PG DEVOPS.pdf' %}" class="btn btn-dark btn-sm mt-1">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>I'm always open to new opportunities and collaborations. Reach out!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Harisree Nilayalam Parachirikkad (ho), Kalapetty (po), KUzhalmannam, Palakkad, Kerala (678702)</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+91 7034180705</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>didingangadharpg@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+              
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+      <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          {% csrf_token %}
+          {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-success">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+         <div class="row gy-4">
+
+          <div class="col-md-6">
+             <label for="id_name" class="pb-2">Your Name</label>
+             <input type="text" name="name" class="form-control" id="id_name" placeholder="Your Name" required>
+          </div>
+
+          <div class="col-md-6">
+             <label for="id_email" class="pb-2">Your Email</label>
+             <input type="email" name="email" class="form-control" id="id_email" placeholder="Your Email" required>
+          </div>
+          <div class="col-md-12">
+             <label for="id_subject" class="pb-2">Subject</label>
+             <input type="text" name="subject" class="form-control" id="id_subject" placeholder="Subject" required>
+          </div>
+
+          <div class="col-md-12">
+              <label for="id_message" class="pb-2">Message</label>
+              <textarea name="message" class="form-control" id="id_message" rows="6" placeholder="Message" required></textarea>
+          </div>
+
+          <div class="col-md-12 text-center">
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+         </div>
+        </form>
+
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename"> Didin's Portfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/typed.js/typed.umd.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
